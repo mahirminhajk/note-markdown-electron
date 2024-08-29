@@ -1,7 +1,7 @@
 function App(): JSX.Element {
   return (
-    <div>
-      <h1>kdk</h1>
+    <div className="flex items-center justify-center text-center">
+      <h1 className="text-4xl text-blue-500">Hellodd dFrom ddElectroddn</h1>
     </div>
   )
 }
