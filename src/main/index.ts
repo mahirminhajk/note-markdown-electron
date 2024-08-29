@@ -16,8 +16,7 @@ function createWindow(): void {
     frame: true,
     vibrancy: 'under-window',
     visualEffectState: 'active',
-    // titleBarStyle: 'hidden',
-    trafficLightPosition: { x: 15, y: 10 },
+    titleBarStyle: 'customButtonsOnHover',
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: true,
