@@ -1,5 +1,7 @@
 declare global {
   interface Window {
-    context: unknown
+    context: {
+      locale: string
+    }
   }
 }

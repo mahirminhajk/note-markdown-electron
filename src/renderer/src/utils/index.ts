@@ -1,8 +1,7 @@
 import clsx, { ClassValue } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 
-//TODO: try to get this from the system
-const dateFormatter = new Intl.DateTimeFormat('en-IN', {
+const dateFormatter = new Intl.DateTimeFormat(window.context.locale, {
   dateStyle: 'medium',
   timeStyle: 'short',
   timeZone: 'Asia/Kolkata'
